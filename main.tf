@@ -7,7 +7,7 @@
 #tfsec:ignore:aws-s3-enable-bucket-logging
 #tfsec:ignore:aws-s3-enable-versioning
 resource "aws_s3_bucket" "example" {  
-  bucket = "my-tf-example-bucket"
+  bucket = "devhub164-tf-example-bucket"
 }
 
 resource "aws_s3_bucket_ownership_controls" "example" {
